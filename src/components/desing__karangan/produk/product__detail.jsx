@@ -66,9 +66,9 @@ export default function ProductDetail({ products }) {
           {filter.map((p) => {
             return (
               <div key={p.id}>
-                <a href={`https://karangan-bunga.vercel.app/${p.id}`}>
+                <Link to={`/${p.id}`}>
                   <img src={p.img[0]} className="item" alt={p.id} />
-                </a>
+                </Link>
               </div>
             );
           })}

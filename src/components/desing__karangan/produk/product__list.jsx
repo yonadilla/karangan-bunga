@@ -25,9 +25,9 @@ export default function ProductList({ products }) {
       <div className="grid-container">
         {filtered.map((product) => (
           <div className="" key={product.id}>
-            <a href={`https://karangan-bunga.vercel.app/${product.id}`}>
+            <Link to={`/${product.id}`}>
               <img src={product.img[0]} className="item" alt={product.id} />
-            </a>
+            </Link>
           </div>
         ))}
       </div>
