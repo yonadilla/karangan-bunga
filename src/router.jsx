@@ -6,28 +6,28 @@ import ProductDetail from "./components/desing__karangan/produk/product__detail"
 const data = [
   {
     id: "SN-320",
-    img: ["../public/SS-007.jpg", "../public/SS-006.jpg" ],
+    img: ["/public/SS-007.jpg", "/public/SS-006.jpg" ],
     description:
       "Karangan bunga duka cita dari NB Florist Ngawi dirancang sebagai ungkapan belasungkawa yang mendalam. Setiap rangkaian mencerminkan rasa hormat dan simpati, memberikan penghormatan terakhir yang penuh makna untuk momen-momen yang penuh khidmat.",
     category: "Selamat",
   },
   {
     id: "SS-006",
-    img: ["../public/SS-006.jpg", "../public/SS-007.jpg" ],
+    img: ["/public/SS-006.jpg", "/public/SS-007.jpg" ],
     description:
       "Karangan bunga duka cita dari NB Florist Ngawi dirancang sebagai ungkapan belasungkawa yang mendalam. Setiap rangkaian mencerminkan rasa hormat dan simpati, memberikan penghormatan terakhir yang penuh makna untuk momen-momen yang penuh khidmat.",
     category: "Berduka",
   },
   {
     id: "SS-007",
-    img: ["../public/SS-006.jpg", "../public/SS-007.jpg" ],
+    img: ["/public/SS-006.jpg", "/public/SS-007.jpg" ],
     description:
       "Karangan bunga duka cita dari NB Florist Ngawi dirancang sebagai ungkapan belasungkawa yang mendalam. Setiap rangkaian mencerminkan rasa hormat dan simpati, memberikan penghormatan terakhir yang penuh makna untuk momen-momen yang penuh khidmat.",
     category: "Berduka",
   },
   {
     id: "SS-008",
-    img: ["../public/SS-006.jpg", "../public/SS-007.jpg" ],
+    img: ["/public/SS-006.jpg", "/public/SS-007.jpg" ],
     description:
       "Karangan bunga duka cita dari NB Florist Ngawi dirancang sebagai ungkapan belasungkawa yang mendalam. Setiap rangkaian mencerminkan rasa hormat dan simpati, memberikan penghormatan terakhir yang penuh makna untuk momen-momen yang penuh khidmat.",
     category: "Berduka",
@@ -35,7 +35,7 @@ const data = [
   ,
   {
     id: "SS-009",
-    img: ["../public/SS-006.jpg", "../public/SS-007.jpg" ],
+    img: ["/public/SS-006.jpg", "/public/SS-007.jpg" ],
     description:
       "Karangan bunga duka cita dari NB Florist Ngawi dirancang sebagai ungkapan belasungkawa yang mendalam. Setiap rangkaian mencerminkan rasa hormat dan simpati, memberikan penghormatan terakhir yang penuh makna untuk momen-momen yang penuh khidmat.",
     category: "Berduka",
