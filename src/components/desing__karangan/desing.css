@@ -53,6 +53,7 @@
   display: flex;
   justify-content: space-between;
   height: 2rem;
+  margin: 2rem 0 2rem 0;
 }
 
 .product__order {
@@ -60,10 +61,10 @@
   width: fit-content;
   padding: 1rem;
   border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
 }
 
 .related__container {
@@ -79,18 +80,55 @@
   font-weight: 500;
 }
 
-.related__product {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  align-items: center;
+
+select {
+  padding: 0.03rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 0.8rem;
+  color: #333;
+  cursor: pointer;
 }
+
+select:focus {
+  outline: none;
+  border-color: #666;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+  .related__product {
+    display: grid;
+    grid-auto-flow: column; /* penting: urutkan secara horizontal */
+    grid-auto-columns: 300px; /* lebar tiap kolom item */
+    gap: 3rem;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .related__product .item {
+    scroll-snap-align: start;
+  }
 
 @media screen AND (min-width: 768px) {
   .product__container {
     display: flex;
     align-items: center;
     width: 100%;
+  }
+
+  select {
+    padding: 0.3rem 1rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
   }
 
   .product__container img {
@@ -111,22 +149,16 @@
     margin-bottom: 2rem;
   }
 
+  .product__category {
+    height: 4rem;
+    width: 10rem;
+  }
+
   .related__title {
     font-size: var(--font-size);
   }
+
   .related__product {
-    display: grid;
-    grid-auto-flow: column; /* penting: urutkan secara horizontal */
-    grid-auto-columns: 400px; /* lebar tiap kolom item */
-    gap: 3rem;
-
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding-bottom: 1rem;
-    scroll-snap-type: x mandatory;
-  }
-
-  .related__product .item {
-    scroll-snap-align: start;
+    grid-auto-columns: 400px;
   }
 }

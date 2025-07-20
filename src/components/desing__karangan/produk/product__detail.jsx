@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import EmblaCarousel from "../../corousel/emblaCarousel";
 import { AnimatePresence, motion } from "motion/react";
 import Carousel from "../../corousel/sweperCarousel";
-import { div } from "motion/react-client";
 
-const OPTIONS = {};
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function ProductDetail({ products }) {
   const { id } = useParams();

@@ -1,19 +1,28 @@
 .chat__container {
   position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px; /* ✅ lebar */
+  height: 60px; /* ✅ tinggi sama */
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 999999px;
-  z-index: 999999;
-  bottom: 3rem;
-  right: 2rem;
-  background-color: rgb(18, 198, 48);
-  width: 4rem;
-  height: 4rem;
-  -webkit-border-radius: 999999px;
-  -moz-border-radius: 999999px;
-  -ms-border-radius: 999999px;
-  -o-border-radius: 999999px;
+  background-color: rgb(37, 211, 102);
+  padding: 0; /* ✅ padding dihapus agar tidak menambah ukuran */
+  border-radius: 9999rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.chat__container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.chat__container:hover {
+  background-color: rgb(30, 180, 90);
 }
 
 @media screen AND (min-width: 766px) {

@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 export default function Hero() {
   return (
     <div className="hero__container">
-      <p className="hero__title">Karangan bunga Jepon</p>
+      <p className="hero__title">KARANGAN BUNGA JEPON</p>
       <div className="hero__number">Wa : 0882299220000</div>
 
       <section className="hero">
@@ -30,7 +30,7 @@ export default function Hero() {
           <motion.p
             initial={{ opacity: 0, transform: "translateY(20px)" }}
             animate={{ opacity: 1, transform: "translateY(0px)" }}
-            transition={{ duration: 1, type: "spring", delay : 0.5 }}
+            transition={{ duration: 1, type: "spring", delay: 0.5 }}
           >
             Screenshot desain karangan bunga yang Anda inginkan, lalu kirimkan
             ke CS kami via WhatsApp. Lengkapi detail pesanan, dan karangan bunga

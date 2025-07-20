@@ -12,8 +12,7 @@ createRoot(document.getElementById("root")).render(
     <Chat />
     <Nav />
     <div className="wrapper">
-
-    <AppRouter />
+      <AppRouter />
     </div>
     <Footer />
   </StrictMode>

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import ProductDetail from "./components/desing__karangan/produk/product__detail";
 
+
 const data = [
   {
     id: "SN-320",
