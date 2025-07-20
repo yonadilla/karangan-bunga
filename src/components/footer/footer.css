@@ -22,6 +22,7 @@
   color: white;
   font-size: var(--font-size);
   line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 .footer__text {
@@ -29,7 +30,9 @@
 }
 
 .footer__copyright {
+  --font-size : 0.7rem;
   margin: 2rem 0 0;
+  font-size: var(--font-size);
 }
 
 .footer__detail-title {
@@ -44,5 +47,7 @@
 }
 
 @media screen AND (min-width: 768px) {
-  
+  .footer__copyright {
+    --font-size : 1rem
+  }
 }
