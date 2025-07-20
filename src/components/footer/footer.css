@@ -1,0 +1,49 @@
+.footer__container {
+  width: 100%;
+
+  margin: 0 0 -2rem;
+  padding: 2rem;
+  background-color: rgb(0, 100, 0);
+}
+
+.footer__line {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+}
+
+.logo__footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text-container {
+  color: white;
+  padding: 2rem;
+  font-size: var(--font-size);
+  line-height: 1.2;
+}
+
+.footer__text {
+  padding: 1rem 0;
+}
+
+.footer__copyright {
+  margin: 2rem 0 0;
+}
+
+.footer__detail-title {
+  color: rgb(255, 183, 0);
+  margin-top: 4rem;
+}
+.footer__detail-product {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen AND (min-width: 768px) {
+  
+}
