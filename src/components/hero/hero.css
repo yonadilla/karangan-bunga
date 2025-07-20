@@ -19,7 +19,7 @@
   width: fit-content;
   border-radius: 2rem;
   padding: 1rem 3rem;
-  background-color: rgb(37, 211, 102); 
+  background-color: rgb(37, 211, 102);
   color: white;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -38,13 +38,20 @@
   font-weight: bold;
 }
 
+.svg__hero {
+  width: 2rem;
+}
 
-@media screen AND (min-width : 766px) {
-    .hero {
-        padding: 0 10rem;
-    }
+@media screen AND (min-width: 766px) {
+  .hero {
+    padding: 0 10rem;
+  }
 
-    .hero__title{
-        font-size: 4rem;
-    }
+  .svg__hero {
+    width: 3rem;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+  }
 }
