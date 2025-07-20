@@ -113,7 +113,7 @@ select:focus {
     scroll-snap-align: start;
   }
 
-@media screen AND (min-width: 768px) {
+@media screen AND (min-width: 1024px) {
   .product__container {
     display: flex;
     align-items: center;

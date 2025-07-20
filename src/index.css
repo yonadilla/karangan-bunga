@@ -33,13 +33,13 @@ img {
   height: auto;
 }
 
-@media screen AND (min-width: 766px) {
+@media screen AND (min-width: 1024px) {
   :root {
     --font-size: 2rem;
   }
 }
 
-@media screen AND (min-width: 766px) {
+@media screen AND (min-width: 1024px) {
   .wrapper {
     padding: 0 1rem;
   }

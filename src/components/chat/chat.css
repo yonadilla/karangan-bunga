@@ -25,7 +25,7 @@
   background-color: rgb(30, 180, 90);
 }
 
-@media screen AND (min-width: 766px) {
+@media screen AND (min-width: 1024px) {
   .chat__container {
     width: 5rem;
     height: 5rem;

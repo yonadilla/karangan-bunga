@@ -12,6 +12,10 @@
   font-size: var(--font-size);
 }
 
+.hero__title {
+  font-size: 1.5rem;
+}
+
 .hero__number {
   display: flex;
   align-items: center;
@@ -42,7 +46,7 @@
   width: 2rem;
 }
 
-@media screen AND (min-width: 766px) {
+@media screen AND (min-width: 1024px) {
   .hero {
     padding: 0 10rem;
   }
