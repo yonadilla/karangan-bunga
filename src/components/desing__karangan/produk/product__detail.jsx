@@ -66,7 +66,7 @@ export default function ProductDetail({ products }) {
           {filter.map((p) => {
             return (
               <div key={p.id}>
-                <a href={`/${p.id}`}>
+                <a href={`https://karangan-bunga.vercel.app/${p.id}`}>
                   <img src={p.img[0]} className="item" alt={p.id} />
                 </a>
               </div>

@@ -15,9 +15,8 @@ a {
 }
 
 .wrapper {
-  padding: 0 1rem;
+  padding: 0 0.2rem;
 }
-
 
 html,
 body {
@@ -36,5 +35,11 @@ img {
 @media screen AND (min-width: 425px) {
   :root {
     --font-size: 2rem;
+  }
+}
+
+@media screen AND (min-width: 766px) {
+  .wrapper {
+    padding: 0 1rem;
   }
 }

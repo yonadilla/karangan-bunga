@@ -51,7 +51,7 @@
 
 .product__filter {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 2rem;
 }
 
